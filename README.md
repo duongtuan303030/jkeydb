@@ -2,15 +2,6 @@
 
 a simple key-value database
 
-how to install
-```
-pip install jkeydb
-```
-or
-```
-pip install git+https://github.com/duongtuan303030/jkeydb
-```
-
 how to use
 ```py
 from jkeydb import database

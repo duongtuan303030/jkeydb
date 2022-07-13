@@ -1,7 +1,7 @@
 import sqlite3
 import json
 
-version = "0.1.0"
+version = "0.2.0"
 
 class database(dict):
     def __init__(self, filename=None):
