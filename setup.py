@@ -7,5 +7,5 @@ setup(
    author='The DT',
    author_email='duongtuan30306@gmail.com',
    packages=['jkeydb'],
-   install_requires=['sqlite3', 'json']
+   install_requires=[]
 )
