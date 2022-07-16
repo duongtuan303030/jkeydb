@@ -1,7 +1,7 @@
 import sqlite3
 import json
 
-version = "0.2.0"
+version = "0.3.0"
 
 class database(dict):
     def __init__(self, filename=None):
@@ -76,9 +76,10 @@ class database(dict):
         self.conn.close()
 
     def savedata(self, data):
+        data = {"data": data}
         data = json.dumps(data)
         return data
 
     def loaddata(self, data):
-        data = json.loads(data)
+        data = json.loads(data)["data"]
         return data
